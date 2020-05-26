@@ -4,6 +4,11 @@ This is a simple 4chan scraper that utilises the 4chan API and outputs a json fi
 
 Documentation for the API and its usage can be found here: https://github.com/4chan/4chan-API/
 
+## TODO
+
+1. Multiple board support
+2. Option to store responses in 1 large file 
+
 ## Usage 
 
 The repository contains two files
