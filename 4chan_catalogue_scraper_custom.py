@@ -1,7 +1,7 @@
 
 """
 Created on 26/05/2020
-Reddit Scraper 0.1 - Scrapes Posts and comments of given subreddits, outputs a subreddit json
+4chan-scraper 0.1
 @author: Andrew Ellul
 """
 
