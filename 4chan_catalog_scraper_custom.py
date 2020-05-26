@@ -28,7 +28,7 @@ filename = path +'/' + datetime + '_' + board + '.json'
 logging.basicConfig(
     format='%(asctime)s %(levelname)-8s  %(message)s',
     datefmt='%Y-%m-%d_T_%H:%M:%S',
-    filename='4chan_catalog_scraper_custom.log',
+    filename='4chan_catalogue_scraper_custom.log',
     level=logging.DEBUG
     )
 
