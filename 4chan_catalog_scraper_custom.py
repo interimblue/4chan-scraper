@@ -28,14 +28,16 @@ filename = path +'/' + datetime + '_' + board + '.json'
 logging.basicConfig(
     format='%(asctime)s %(levelname)-8s  %(message)s',
     datefmt='%Y-%m-%d_T_%H:%M:%S',
-    filename='4chan_catalogue_scraper_custom.log',
+    filename='4chan_catalog_scraper_custom.log',
     level=logging.DEBUG
     )
 
 start = time.time()
 
 ### Thread attributes that we wish to preserve - image and file related attributes are excluded to save space
-### For full list of attributes, see: https://github.com/4chan/4chan-API/blob/master/pages/Threads.md
+### For full list of attributes, see: 
+### https://github.com/4chan/4chan-API/blob/master/pages/Catalog.md
+### https://github.com/4chan/4chan-API/blob/master/pages/Threads.md
 desiredAttributes = [
     'no',
     'resto',
@@ -47,18 +49,20 @@ desiredAttributes = [
     'trip',
     'id',
     'capcode',
-    'countryo',
+    'country',
     'country_name',
     'sub',
     'com',
     'tim',
     'replies',
     'images',
+    'last_modified',
     'tag',
     'semantic_url',
     'unique_ips',
     'archived',
-    'archived_on'  
+    'archived_on',
+    'last_replies'  
 ]
 
 if os.path.exists(path):
