@@ -8,7 +8,7 @@ import requests, json, os, datetime
 
 ### File save settings
 board = 'pol'
-filename = 'data/' + board + '.json'
+filename = board + '.json'
 
 ### Get the 4chan board catalog JSON file and open it
 url = "https://a.4cdn.org/" + board + "/catalog.json"

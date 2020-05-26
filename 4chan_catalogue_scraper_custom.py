@@ -19,7 +19,7 @@ import time
 
 board = 'pol'
 url = "https://a.4cdn.org/" + board + "/catalog.json"
-datetime = dt.datetime.now().strftime("%m-%d-%Y_%H-%M-%S")
+datetime = dt.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 dateMonth = dt.datetime.now().strftime("%Y-%m")
 path = '4chan-data/' + dateMonth
 filename = path +'/' + datetime + '_' + board + '.json'
