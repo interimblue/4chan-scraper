@@ -1,4 +1,6 @@
-# 4chan Scraper
+# 4chan Scraper v0.2
+
+__Note: This is an unfinished script under development__
 
 This is a simple 4chan scraper that utilises the 4chan API and outputs a json file with the filtered response.
 
@@ -26,7 +28,7 @@ The custom file is intended to filter out unnecessary clutter from the response 
 
 This script will generate a new file each time is run, batching the files into a separate folder per day. The result will be a file under `4chan-data/YYYY-MM/YYYY-MM-DD_HH-MM-SS_board.json`
 
-NOTE: Although 4chan provides a list of thread objects, the relpies to each thread stored in the 'last_replies' JSON array are not exhaustive. Therefore, frequent scraping is required to ensure replies to threads are gathered as they are posted. 
+__Note: Although 4chan provides a list of thread objects, the relpies to each thread stored in the 'last_replies' JSON array are not exhaustive. Therefore, frequent scraping is required to ensure replies to threads are gathered as they are posted.__
 
 ## Scheduling and Logging 
 

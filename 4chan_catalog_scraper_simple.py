@@ -1,6 +1,6 @@
 """
 Created on 26/05/2020
-4chan-scraper 0.1
+4chan-scraper v0.2
 @author: Andrew Ellul
 """
 
